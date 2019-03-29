@@ -1,11 +1,70 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
-
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
   margin: 0;
+  font-size: 16px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-image: linear-gradient(to bottom, #4C7597 38%, #FFFFFF 38%);
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 100px auto 0px auto;
+}
+
+.container > .imageSection{
+  margin-right: 50px;
+}
+
+.container > .contentSection > .content {
+  width: 480px;
+  padding: 40px;
+  font-size: 16px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../img/frame.png");
+}
+
+.container > .contentSection > .header {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 15px;
+}
+
+
+
+.container > .contentSection > .content > h2 {
+  color: #06365f;
+  font-size: 24px;
+  margin-top: 0px;
+  font-weight: bold;
+}
+
+.container > .contentSection > .content > span {
+  font-weight: bold;
+}
+
+.container > .contentSection > .download {
+  padding: 40px;
+}
+
+.footer {
+  margin-top: 50px;
+  font-size: 12px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.footer > a {
+  color: #1C5380;
+  margin-left: 14px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.footer > span {
+  color: #CACBCC;
+  margin-left: 14px;
+  font-weight: bold;
+  text-decoration: none;
 }
