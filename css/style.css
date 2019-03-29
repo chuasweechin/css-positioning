@@ -17,15 +17,6 @@ body {
   margin-right: 50px;
 }
 
-.container > .contentSection > .content {
-  width: 485px;
-  padding: 40px;
-  font-size: 16px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-image: url("../img/frame.png");
-}
-
 .container > .contentSection > .header {
   display: flex;
   flex-direction: row;
@@ -50,13 +41,21 @@ body {
   cursor: pointer;
 }
 
-
 .container > .contentSection > .header > .button > div {
   color: white;
   margin-left: 10px;
   font-size: 14px;
   font-weight: 500;
   display: inline-block;
+}
+
+.container > .contentSection > .content {
+  width: 485px;
+  padding: 40px;
+  font-size: 16px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../img/frame.png");
 }
 
 .container > .contentSection > .content > h2 {
