@@ -43,6 +43,7 @@ body {
   border: 1px solid #6389A8;
   margin: 20px 0px 0px 26px;
   background-color: #6389A8;
+  background-image: linear-gradient(to top, #477194 0%, #6388A7 100%);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
